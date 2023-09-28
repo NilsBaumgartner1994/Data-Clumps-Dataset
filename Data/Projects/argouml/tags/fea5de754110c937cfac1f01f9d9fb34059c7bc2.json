@@ -1,14 +1,16 @@
 {
-  "report_version": "0.1.100",
-  "report_timestamp": "2023-09-28T11:38:30.908Z",
+  "report_version": "0.1.102",
+  "report_timestamp": "2023-09-28T18:52:56.139Z",
   "target_language": "java",
   "report_summary": {
-    "amount_data_clumps": 122,
+    "additional": null,
+    "amount_classes_or_interfaces_with_data_clumps": 26,
     "amount_files_with_data_clumps": 30,
     "amount_methods_with_data_clumps": 62,
     "fields_to_fields_data_clump": 4,
     "parameters_to_fields_data_clump": 0,
-    "parameters_to_parameters_data_clump": 118
+    "parameters_to_parameters_data_clump": 118,
+    "amount_data_clumps": 122
   },
   "project_info": {
     "project_url": "https://github.com/argouml-tigris-org/argouml",
@@ -18,6 +20,7 @@
     "project_tag": "VERSION_0_30_BETA_2",
     "project_commit_date": "1266673623",
     "additional": {},
+    "number_of_files": 2219,
     "number_of_classes_or_interfaces": 2590,
     "number_of_methods": 15682,
     "number_of_data_fields": 4880,

@@ -1,14 +1,16 @@
 {
-  "report_version": "0.1.100",
-  "report_timestamp": "2023-09-28T08:00:11.736Z",
+  "report_version": "0.1.102",
+  "report_timestamp": "2023-09-28T19:11:40.966Z",
   "target_language": "java",
   "report_summary": {
-    "amount_data_clumps": 376,
+    "additional": null,
+    "amount_classes_or_interfaces_with_data_clumps": 27,
     "amount_files_with_data_clumps": 29,
     "amount_methods_with_data_clumps": 71,
     "fields_to_fields_data_clump": 14,
     "parameters_to_fields_data_clump": 2,
-    "parameters_to_parameters_data_clump": 360
+    "parameters_to_parameters_data_clump": 360,
+    "amount_data_clumps": 376
   },
   "project_info": {
     "project_url": "https://github.com/ben-manes/caffeine",
@@ -18,6 +20,7 @@
     "project_tag": "v2.3.0",
     "project_commit_date": "1461447923",
     "additional": {},
+    "number_of_files": 306,
     "number_of_classes_or_interfaces": 492,
     "number_of_methods": 3587,
     "number_of_data_fields": 1198,

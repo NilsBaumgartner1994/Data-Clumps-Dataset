@@ -1,14 +1,16 @@
 {
-  "report_version": "0.1.100",
-  "report_timestamp": "2023-09-28T06:46:41.704Z",
+  "report_version": "0.1.102",
+  "report_timestamp": "2023-09-28T19:35:53.836Z",
   "target_language": "java",
   "report_summary": {
-    "amount_data_clumps": 18,
+    "additional": null,
+    "amount_classes_or_interfaces_with_data_clumps": 8,
     "amount_files_with_data_clumps": 8,
     "amount_methods_with_data_clumps": 7,
     "fields_to_fields_data_clump": 8,
     "parameters_to_fields_data_clump": 0,
-    "parameters_to_parameters_data_clump": 10
+    "parameters_to_parameters_data_clump": 10,
+    "amount_data_clumps": 18
   },
   "project_info": {
     "project_url": "https://github.com/jflex-de/jflex",
@@ -18,6 +20,7 @@
     "project_tag": "release_1_4_1",
     "project_commit_date": "1227831111",
     "additional": {},
+    "number_of_files": 93,
     "number_of_classes_or_interfaces": 95,
     "number_of_methods": 595,
     "number_of_data_fields": 579,

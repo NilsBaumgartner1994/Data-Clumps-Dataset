@@ -1,14 +1,16 @@
 {
-  "report_version": "0.1.100",
-  "report_timestamp": "2023-09-28T08:33:11.261Z",
+  "report_version": "0.1.102",
+  "report_timestamp": "2023-09-28T20:28:39.161Z",
   "target_language": "java",
   "report_summary": {
-    "amount_data_clumps": 660,
+    "additional": null,
+    "amount_classes_or_interfaces_with_data_clumps": 47,
     "amount_files_with_data_clumps": 56,
     "amount_methods_with_data_clumps": 135,
     "fields_to_fields_data_clump": 52,
     "parameters_to_fields_data_clump": 67,
-    "parameters_to_parameters_data_clump": 541
+    "parameters_to_parameters_data_clump": 541,
+    "amount_data_clumps": 660
   },
   "project_info": {
     "project_url": "https://github.com/apache/xerces2-j",
@@ -18,6 +20,7 @@
     "project_tag": "x1_sync_121100",
     "project_commit_date": "976648099",
     "additional": {},
+    "number_of_files": 517,
     "number_of_classes_or_interfaces": 602,
     "number_of_methods": 5346,
     "number_of_data_fields": 2262,
