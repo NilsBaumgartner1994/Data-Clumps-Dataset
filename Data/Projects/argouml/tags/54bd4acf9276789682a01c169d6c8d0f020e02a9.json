@@ -1,0 +1,2353 @@
+{
+  "report_version": "0.1.100",
+  "report_timestamp": "2023-09-28T09:00:29.108Z",
+  "target_language": "java",
+  "report_summary": {
+    "amount_data_clumps": 20,
+    "amount_files_with_data_clumps": 1,
+    "amount_methods_with_data_clumps": 7,
+    "fields_to_fields_data_clump": 0,
+    "parameters_to_fields_data_clump": 0,
+    "parameters_to_parameters_data_clump": 20
+  },
+  "project_info": {
+    "project_url": "https://github.com/argouml-tigris-org/argouml",
+    "project_name": "argouml",
+    "project_version": "54bd4acf9276789682a01c169d6c8d0f020e02a9",
+    "project_commit_hash": "54bd4acf9276789682a01c169d6c8d0f020e02a9",
+    "project_tag": "uci",
+    "project_commit_date": "1159466271",
+    "additional": {},
+    "number_of_classes_or_interfaces": 159,
+    "number_of_methods": 1293,
+    "number_of_data_fields": 550,
+    "number_of_method_parameters": 1313
+  },
+  "detector": {
+    "name": "data-clumps-doctor",
+    "url": "https://github.com/NilsBaumgartner1994/data-clumps-doctor",
+    "version": "0.1.100",
+    "options": {
+      "typeVariablesConsidered": false,
+      "similarityModifierOfVariablesWithUnknownType": 0,
+      "fieldsOfClassesWithUnknownHierarchyProbabilityModifier": 0,
+      "sharedFieldsToFieldsAmountMinimum": 3,
+      "analyseFieldsInClassesOrInterfacesInheritedFromSuperClassesOrInterfaces": false,
+      "sharedParametersToParametersAmountMinimum": 3,
+      "sharedParametersToFieldsAmountMinimum": 3,
+      "methodsOfClassesOrInterfacesWithUnknownHierarchyProbabilityModifier": 0
+    }
+  },
+  "data_clumps": {
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-xygrip": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-xygrip",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "nearSegment",
+      "from_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "nearPolySegment",
+      "to_method_key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x",
+          "name": "x",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/x",
+            "name": "x",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 50,
+              "endLine": 133,
+              "endColumn": 51
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 59,
+            "endLine": 146,
+            "endColumn": 60
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y",
+          "name": "y",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/y",
+            "name": "y",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 57,
+              "endLine": 133,
+              "endColumn": 58
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 66,
+            "endLine": 146,
+            "endColumn": 67
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/grip": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/grip",
+          "name": "grip",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/grip",
+            "name": "grip",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 64,
+              "endLine": 133,
+              "endColumn": 68
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 73,
+            "endLine": 146,
+            "endColumn": 77
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "nearSegment",
+      "from_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "ptClosestTo",
+      "to_method_key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 38,
+              "endLine": 73,
+              "endColumn": 40
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 27,
+            "endLine": 146,
+            "endColumn": 29
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 46,
+              "endLine": 73,
+              "endColumn": 48
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 35,
+            "endLine": 146,
+            "endColumn": 37
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 54,
+              "endLine": 73,
+              "endColumn": 56
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 43,
+            "endLine": 146,
+            "endColumn": 45
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 62,
+              "endLine": 73,
+              "endColumn": 64
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 51,
+            "endLine": 146,
+            "endColumn": 53
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "nearSegment",
+      "from_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "intersects",
+      "to_method_key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 39,
+              "endLine": 153,
+              "endColumn": 41
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 27,
+            "endLine": 146,
+            "endColumn": 29
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 47,
+              "endLine": 153,
+              "endColumn": 49
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 35,
+            "endLine": 146,
+            "endColumn": 37
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 55,
+              "endLine": 153,
+              "endColumn": 57
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 43,
+            "endLine": 146,
+            "endColumn": 45
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 63,
+              "endLine": 153,
+              "endColumn": 65
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 51,
+            "endLine": 146,
+            "endColumn": 53
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-x1y1x2y2xy": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-x1y1x2y2xy",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "nearSegment",
+      "from_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "counterClockWise",
+      "to_method_key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 28,
+              "endLine": 177,
+              "endColumn": 30
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 27,
+            "endLine": 146,
+            "endColumn": 29
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 36,
+              "endLine": 177,
+              "endColumn": 38
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 35,
+            "endLine": 146,
+            "endColumn": 37
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 44,
+              "endLine": 177,
+              "endColumn": 46
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 43,
+            "endLine": 146,
+            "endColumn": 45
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 52,
+              "endLine": 177,
+              "endColumn": 54
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 51,
+            "endLine": 146,
+            "endColumn": 53
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x",
+          "name": "x",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x",
+            "name": "x",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 60,
+              "endLine": 177,
+              "endColumn": 61
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 59,
+            "endLine": 146,
+            "endColumn": 60
+          }
+        },
+        "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y": {
+          "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y",
+          "name": "y",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y",
+            "name": "y",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 67,
+              "endLine": 177,
+              "endColumn": 68
+            }
+          },
+          "position": {
+            "startLine": 146,
+            "startColumn": 66,
+            "endLine": 146,
+            "endColumn": 67
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-xsysnp": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-xsysnp",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "ptClosestTo",
+      "from_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "ptClosestTo",
+      "to_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/xs": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/xs",
+          "name": "xs",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/xs",
+            "name": "xs",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 126,
+              "startColumn": 39,
+              "endLine": 126,
+              "endColumn": 43
+            }
+          },
+          "position": {
+            "startLine": 108,
+            "startColumn": 51,
+            "endLine": 108,
+            "endColumn": 55
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/ys": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/ys",
+          "name": "ys",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/ys",
+            "name": "ys",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 126,
+              "startColumn": 49,
+              "endLine": 126,
+              "endColumn": 53
+            }
+          },
+          "position": {
+            "startLine": 108,
+            "startColumn": 61,
+            "endLine": 108,
+            "endColumn": 65
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/n": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/n",
+          "name": "n",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/n",
+            "name": "n",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 126,
+              "startColumn": 59,
+              "endLine": 126,
+              "endColumn": 60
+            }
+          },
+          "position": {
+            "startLine": 109,
+            "startColumn": 16,
+            "endLine": 109,
+            "endColumn": 17
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/p": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/p",
+          "name": "p",
+          "type": "java.awt.Point",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/p",
+            "name": "p",
+            "type": "java.awt.Point",
+            "modifiers": [],
+            "position": {
+              "startLine": 126,
+              "startColumn": 68,
+              "endLine": 126,
+              "endColumn": 69
+            }
+          },
+          "position": {
+            "startLine": 109,
+            "startColumn": 25,
+            "endLine": 109,
+            "endColumn": 26
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-xsysn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-xsysn",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "ptClosestTo",
+      "from_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "nearPolySegment",
+      "to_method_key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/xs": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/xs",
+          "name": "xs",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/xs",
+            "name": "xs",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 23,
+              "endLine": 133,
+              "endColumn": 27
+            }
+          },
+          "position": {
+            "startLine": 108,
+            "startColumn": 51,
+            "endLine": 108,
+            "endColumn": 55
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/ys": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/ys",
+          "name": "ys",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/ys",
+            "name": "ys",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 33,
+              "endLine": 133,
+              "endColumn": 37
+            }
+          },
+          "position": {
+            "startLine": 108,
+            "startColumn": 61,
+            "endLine": 108,
+            "endColumn": 65
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/n": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/n",
+          "name": "n",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/n",
+            "name": "n",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 43,
+              "endLine": 133,
+              "endColumn": 44
+            }
+          },
+          "position": {
+            "startLine": 109,
+            "startColumn": 16,
+            "endLine": 109,
+            "endColumn": 17
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-xsysnp": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-xsysnp",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "ptClosestTo",
+      "from_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "ptClosestTo",
+      "to_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/xs": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/xs",
+          "name": "xs",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/xs",
+            "name": "xs",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 108,
+              "startColumn": 51,
+              "endLine": 108,
+              "endColumn": 55
+            }
+          },
+          "position": {
+            "startLine": 126,
+            "startColumn": 39,
+            "endLine": 126,
+            "endColumn": 43
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/ys": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/ys",
+          "name": "ys",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/ys",
+            "name": "ys",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 108,
+              "startColumn": 61,
+              "endLine": 108,
+              "endColumn": 65
+            }
+          },
+          "position": {
+            "startLine": 126,
+            "startColumn": 49,
+            "endLine": 126,
+            "endColumn": 53
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/n": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/n",
+          "name": "n",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/n",
+            "name": "n",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 109,
+              "startColumn": 16,
+              "endLine": 109,
+              "endColumn": 17
+            }
+          },
+          "position": {
+            "startLine": 126,
+            "startColumn": 59,
+            "endLine": 126,
+            "endColumn": 60
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/p": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/p",
+          "name": "p",
+          "type": "java.awt.Point",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/p",
+            "name": "p",
+            "type": "java.awt.Point",
+            "modifiers": [],
+            "position": {
+              "startLine": 109,
+              "startColumn": 25,
+              "endLine": 109,
+              "endColumn": 26
+            }
+          },
+          "position": {
+            "startLine": 126,
+            "startColumn": 68,
+            "endLine": 126,
+            "endColumn": 69
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-xsysn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-xsysn",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "ptClosestTo",
+      "from_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "nearPolySegment",
+      "to_method_key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/xs": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/xs",
+          "name": "xs",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/xs",
+            "name": "xs",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 23,
+              "endLine": 133,
+              "endColumn": 27
+            }
+          },
+          "position": {
+            "startLine": 126,
+            "startColumn": 39,
+            "endLine": 126,
+            "endColumn": 43
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/ys": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/ys",
+          "name": "ys",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/ys",
+            "name": "ys",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 33,
+              "endLine": 133,
+              "endColumn": 37
+            }
+          },
+          "position": {
+            "startLine": 126,
+            "startColumn": 49,
+            "endLine": 126,
+            "endColumn": 53
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/n": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/n",
+          "name": "n",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/n",
+            "name": "n",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 133,
+              "startColumn": 43,
+              "endLine": 133,
+              "endColumn": 44
+            }
+          },
+          "position": {
+            "startLine": 126,
+            "startColumn": 59,
+            "endLine": 126,
+            "endColumn": 60
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-xygrip": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-xygrip",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "nearPolySegment",
+      "from_method_key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "nearSegment",
+      "to_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/x": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/x",
+          "name": "x",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x",
+            "name": "x",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 59,
+              "endLine": 146,
+              "endColumn": 60
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 50,
+            "endLine": 133,
+            "endColumn": 51
+          }
+        },
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/y": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/y",
+          "name": "y",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y",
+            "name": "y",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 66,
+              "endLine": 146,
+              "endColumn": 67
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 57,
+            "endLine": 133,
+            "endColumn": 58
+          }
+        },
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/grip": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/grip",
+          "name": "grip",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/grip",
+            "name": "grip",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 73,
+              "endLine": 146,
+              "endColumn": 77
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 64,
+            "endLine": 133,
+            "endColumn": 68
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-xsysn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)-xsysn",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "nearPolySegment",
+      "from_method_key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "ptClosestTo",
+      "to_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/xs": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/xs",
+          "name": "xs",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/xs",
+            "name": "xs",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 108,
+              "startColumn": 51,
+              "endLine": 108,
+              "endColumn": 55
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 23,
+            "endLine": 133,
+            "endColumn": 27
+          }
+        },
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/ys": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/ys",
+          "name": "ys",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/ys",
+            "name": "ys",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 108,
+              "startColumn": 61,
+              "endLine": 108,
+              "endColumn": 65
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 33,
+            "endLine": 133,
+            "endColumn": 37
+          }
+        },
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/n": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/n",
+          "name": "n",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p, java.awt.Point res)/parameter/n",
+            "name": "n",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 109,
+              "startColumn": 16,
+              "endLine": 109,
+              "endColumn": 17
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 43,
+            "endLine": 133,
+            "endColumn": 44
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-xsysn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)-uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)-xsysn",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "nearPolySegment",
+      "from_method_key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "ptClosestTo",
+      "to_method_key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/xs": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/xs",
+          "name": "xs",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/xs",
+            "name": "xs",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 126,
+              "startColumn": 39,
+              "endLine": 126,
+              "endColumn": 43
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 23,
+            "endLine": 133,
+            "endColumn": 27
+          }
+        },
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/ys": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/ys",
+          "name": "ys",
+          "type": "int[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/ys",
+            "name": "ys",
+            "type": "int[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 126,
+              "startColumn": 49,
+              "endLine": 126,
+              "endColumn": 53
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 33,
+            "endLine": 133,
+            "endColumn": 37
+          }
+        },
+        "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/n": {
+          "key": "uci.gef.Geometry/method/nearPolySegment(int[] xs, int[] ys, int n, int x, int y, int grip)/parameter/n",
+          "name": "n",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int[] xs, int[] ys, int n, java.awt.Point p)/parameter/n",
+            "name": "n",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 126,
+              "startColumn": 59,
+              "endLine": 126,
+              "endColumn": 60
+            }
+          },
+          "position": {
+            "startLine": 133,
+            "startColumn": 43,
+            "endLine": 133,
+            "endColumn": 44
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "ptClosestTo",
+      "from_method_key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "nearSegment",
+      "to_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 27,
+              "endLine": 146,
+              "endColumn": 29
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 38,
+            "endLine": 73,
+            "endColumn": 40
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 35,
+              "endLine": 146,
+              "endColumn": 37
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 46,
+            "endLine": 73,
+            "endColumn": 48
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 43,
+              "endLine": 146,
+              "endColumn": 45
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 54,
+            "endLine": 73,
+            "endColumn": 56
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 51,
+              "endLine": 146,
+              "endColumn": 53
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 62,
+            "endLine": 73,
+            "endColumn": 64
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "ptClosestTo",
+      "from_method_key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "intersects",
+      "to_method_key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 39,
+              "endLine": 153,
+              "endColumn": 41
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 38,
+            "endLine": 73,
+            "endColumn": 40
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 47,
+              "endLine": 153,
+              "endColumn": 49
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 46,
+            "endLine": 73,
+            "endColumn": 48
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 55,
+              "endLine": 153,
+              "endColumn": 57
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 54,
+            "endLine": 73,
+            "endColumn": 56
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 63,
+              "endLine": 153,
+              "endColumn": 65
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 62,
+            "endLine": 73,
+            "endColumn": 64
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "ptClosestTo",
+      "from_method_key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "counterClockWise",
+      "to_method_key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 28,
+              "endLine": 177,
+              "endColumn": 30
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 38,
+            "endLine": 73,
+            "endColumn": 40
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 36,
+              "endLine": 177,
+              "endColumn": 38
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 46,
+            "endLine": 73,
+            "endColumn": 48
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 44,
+              "endLine": 177,
+              "endColumn": 46
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 54,
+            "endLine": 73,
+            "endColumn": 56
+          }
+        },
+        "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 52,
+              "endLine": 177,
+              "endColumn": 54
+            }
+          },
+          "position": {
+            "startLine": 73,
+            "startColumn": 62,
+            "endLine": 73,
+            "endColumn": 64
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "intersects",
+      "from_method_key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "nearSegment",
+      "to_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 27,
+              "endLine": 146,
+              "endColumn": 29
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 39,
+            "endLine": 153,
+            "endColumn": 41
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 35,
+              "endLine": 146,
+              "endColumn": 37
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 47,
+            "endLine": 153,
+            "endColumn": 49
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 43,
+              "endLine": 146,
+              "endColumn": 45
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 55,
+            "endLine": 153,
+            "endColumn": 57
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 51,
+              "endLine": 146,
+              "endColumn": 53
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 63,
+            "endLine": 153,
+            "endColumn": 65
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "intersects",
+      "from_method_key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "ptClosestTo",
+      "to_method_key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 38,
+              "endLine": 73,
+              "endColumn": 40
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 39,
+            "endLine": 153,
+            "endColumn": 41
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 46,
+              "endLine": 73,
+              "endColumn": 48
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 47,
+            "endLine": 153,
+            "endColumn": 49
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 54,
+              "endLine": 73,
+              "endColumn": 56
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 55,
+            "endLine": 153,
+            "endColumn": 57
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 62,
+              "endLine": 73,
+              "endColumn": 64
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 63,
+            "endLine": 153,
+            "endColumn": 65
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "intersects",
+      "from_method_key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "counterClockWise",
+      "to_method_key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 28,
+              "endLine": 177,
+              "endColumn": 30
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 39,
+            "endLine": 153,
+            "endColumn": 41
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 36,
+              "endLine": 177,
+              "endColumn": 38
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 47,
+            "endLine": 153,
+            "endColumn": 49
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 44,
+              "endLine": 177,
+              "endColumn": 46
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 55,
+            "endLine": 153,
+            "endColumn": 57
+          }
+        },
+        "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 177,
+              "startColumn": 52,
+              "endLine": 177,
+              "endColumn": 54
+            }
+          },
+          "position": {
+            "startLine": 153,
+            "startColumn": 63,
+            "endLine": 153,
+            "endColumn": 65
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-x1y1x2y2xy": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)-x1y1x2y2xy",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "counterClockWise",
+      "from_method_key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "nearSegment",
+      "to_method_key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 27,
+              "endLine": 146,
+              "endColumn": 29
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 28,
+            "endLine": 177,
+            "endColumn": 30
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 35,
+              "endLine": 146,
+              "endColumn": 37
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 36,
+            "endLine": 177,
+            "endColumn": 38
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 43,
+              "endLine": 146,
+              "endColumn": 45
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 44,
+            "endLine": 177,
+            "endColumn": 46
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 51,
+              "endLine": 146,
+              "endColumn": 53
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 52,
+            "endLine": 177,
+            "endColumn": 54
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x",
+          "name": "x",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/x",
+            "name": "x",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 59,
+              "endLine": 146,
+              "endColumn": 60
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 60,
+            "endLine": 177,
+            "endColumn": 61
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y",
+          "name": "y",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/nearSegment(int x1, int y1, int x2, int y2, int x, int y, int grip)/parameter/y",
+            "name": "y",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 146,
+              "startColumn": 66,
+              "endLine": 146,
+              "endColumn": 67
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 67,
+            "endLine": 177,
+            "endColumn": 68
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "counterClockWise",
+      "from_method_key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "ptClosestTo",
+      "to_method_key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 38,
+              "endLine": 73,
+              "endColumn": 40
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 28,
+            "endLine": 177,
+            "endColumn": 30
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 46,
+              "endLine": 73,
+              "endColumn": 48
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 36,
+            "endLine": 177,
+            "endColumn": 38
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 54,
+              "endLine": 73,
+              "endColumn": 56
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 44,
+            "endLine": 177,
+            "endColumn": 46
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/ptClosestTo(int x1, int y1, int x2, int y2, java.awt.Point p, java.awt.Point res)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 73,
+              "startColumn": 62,
+              "endLine": 73,
+              "endColumn": 64
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 52,
+            "endLine": 177,
+            "endColumn": 54
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-x1y1x2y2": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-src/uci/gef/Geometry.java-uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)-uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)-x1y1x2y2",
+      "probability": 1,
+      "from_file_path": "src/uci/gef/Geometry.java",
+      "from_class_or_interface_name": "Geometry",
+      "from_class_or_interface_key": "uci.gef.Geometry",
+      "from_method_name": "counterClockWise",
+      "from_method_key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)",
+      "to_file_path": "src/uci/gef/Geometry.java",
+      "to_class_or_interface_name": "Geometry",
+      "to_class_or_interface_key": "uci.gef.Geometry",
+      "to_method_name": "intersects",
+      "to_method_key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x1",
+          "name": "x1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x1",
+            "name": "x1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 39,
+              "endLine": 153,
+              "endColumn": 41
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 28,
+            "endLine": 177,
+            "endColumn": 30
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y1",
+          "name": "y1",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y1",
+            "name": "y1",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 47,
+              "endLine": 153,
+              "endColumn": 49
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 36,
+            "endLine": 177,
+            "endColumn": 38
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/x2",
+          "name": "x2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/x2",
+            "name": "x2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 55,
+              "endLine": 153,
+              "endColumn": 57
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 44,
+            "endLine": 177,
+            "endColumn": 46
+          }
+        },
+        "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2": {
+          "key": "uci.gef.Geometry/method/counterClockWise(int x1, int y1, int x2, int y2, int x, int y)/parameter/y2",
+          "name": "y2",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "uci.gef.Geometry/method/intersects(java.awt.Rectangle r, int x1, int y1, int x2, int y2)/parameter/y2",
+            "name": "y2",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 153,
+              "startColumn": 63,
+              "endLine": 153,
+              "endColumn": 65
+            }
+          },
+          "position": {
+            "startLine": 177,
+            "startColumn": 52,
+            "endLine": 177,
+            "endColumn": 54
+          }
+        }
+      }
+    }
+  }
+}
