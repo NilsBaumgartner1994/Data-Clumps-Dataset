@@ -1,0 +1,42 @@
+{
+  "report_version": "0.1.100",
+  "report_timestamp": "2023-09-28T06:46:32.560Z",
+  "target_language": "java",
+  "report_summary": {
+    "amount_data_clumps": 0,
+    "amount_files_with_data_clumps": 0,
+    "amount_methods_with_data_clumps": 0,
+    "fields_to_fields_data_clump": 0,
+    "parameters_to_fields_data_clump": 0,
+    "parameters_to_parameters_data_clump": 0
+  },
+  "project_info": {
+    "project_url": "https://github.com/jflex-de/jflex",
+    "project_name": "jflex",
+    "project_version": "2126b3ab57aa0667a609b80b4ad2d944c40f7b8a",
+    "project_commit_hash": "2126b3ab57aa0667a609b80b4ad2d944c40f7b8a",
+    "project_tag": "maven-jflex-plugin-0.3",
+    "project_commit_date": "1194908093",
+    "additional": {},
+    "number_of_classes_or_interfaces": 5,
+    "number_of_methods": 15,
+    "number_of_data_fields": 15,
+    "number_of_method_parameters": 7
+  },
+  "detector": {
+    "name": "data-clumps-doctor",
+    "url": "https://github.com/NilsBaumgartner1994/data-clumps-doctor",
+    "version": "0.1.100",
+    "options": {
+      "typeVariablesConsidered": false,
+      "similarityModifierOfVariablesWithUnknownType": 0,
+      "fieldsOfClassesWithUnknownHierarchyProbabilityModifier": 0,
+      "sharedFieldsToFieldsAmountMinimum": 3,
+      "analyseFieldsInClassesOrInterfacesInheritedFromSuperClassesOrInterfaces": false,
+      "sharedParametersToParametersAmountMinimum": 3,
+      "sharedParametersToFieldsAmountMinimum": 3,
+      "methodsOfClassesOrInterfacesWithUnknownHierarchyProbabilityModifier": 0
+    }
+  },
+  "data_clumps": {}
+}

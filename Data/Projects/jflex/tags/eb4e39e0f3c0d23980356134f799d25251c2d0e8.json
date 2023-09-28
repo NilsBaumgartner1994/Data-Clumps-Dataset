@@ -1,0 +1,1891 @@
+{
+  "report_version": "0.1.100",
+  "report_timestamp": "2023-09-28T06:46:41.704Z",
+  "target_language": "java",
+  "report_summary": {
+    "amount_data_clumps": 18,
+    "amount_files_with_data_clumps": 8,
+    "amount_methods_with_data_clumps": 7,
+    "fields_to_fields_data_clump": 8,
+    "parameters_to_fields_data_clump": 0,
+    "parameters_to_parameters_data_clump": 10
+  },
+  "project_info": {
+    "project_url": "https://github.com/jflex-de/jflex",
+    "project_name": "jflex",
+    "project_version": "eb4e39e0f3c0d23980356134f799d25251c2d0e8",
+    "project_commit_hash": "eb4e39e0f3c0d23980356134f799d25251c2d0e8",
+    "project_tag": "release_1_4_1",
+    "project_commit_date": "1227831111",
+    "additional": {},
+    "number_of_classes_or_interfaces": 95,
+    "number_of_methods": 595,
+    "number_of_data_fields": 579,
+    "number_of_method_parameters": 462
+  },
+  "detector": {
+    "name": "data-clumps-doctor",
+    "url": "https://github.com/NilsBaumgartner1994/data-clumps-doctor",
+    "version": "0.1.100",
+    "options": {
+      "typeVariablesConsidered": false,
+      "similarityModifierOfVariablesWithUnknownType": 0,
+      "fieldsOfClassesWithUnknownHierarchyProbabilityModifier": 0,
+      "sharedFieldsToFieldsAmountMinimum": 3,
+      "analyseFieldsInClassesOrInterfacesInheritedFromSuperClassesOrInterfaces": false,
+      "sharedParametersToParametersAmountMinimum": 3,
+      "sharedParametersToFieldsAmountMinimum": 3,
+      "methodsOfClassesOrInterfacesWithUnknownHierarchyProbabilityModifier": 0
+    }
+  },
+  "data_clumps": {
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/LexParse.java-JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)-JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)-messagelinecol": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/LexParse.java-JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)-JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)-messagelinecol",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/LexParse.java",
+      "from_class_or_interface_name": "CUP$LexParse$actions",
+      "from_class_or_interface_key": "JFlex.CUP$LexParse$actions",
+      "from_method_name": "fatalError",
+      "from_method_key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)",
+      "to_file_path": "jflex/src/JFlex/LexParse.java",
+      "to_class_or_interface_name": "CUP$LexParse$actions",
+      "to_class_or_interface_key": "JFlex.CUP$LexParse$actions",
+      "to_method_name": "syntaxError",
+      "to_method_key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/message": {
+          "key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/message",
+          "name": "message",
+          "type": "JFlex.ErrorMessages",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/message",
+            "name": "message",
+            "type": "JFlex.ErrorMessages",
+            "modifiers": [],
+            "position": {
+              "startLine": 480,
+              "startColumn": 34,
+              "endLine": 480,
+              "endColumn": 41
+            }
+          },
+          "position": {
+            "startLine": 462,
+            "startColumn": 33,
+            "endLine": 462,
+            "endColumn": 40
+          }
+        },
+        "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/line": {
+          "key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 480,
+              "startColumn": 47,
+              "endLine": 480,
+              "endColumn": 51
+            }
+          },
+          "position": {
+            "startLine": 462,
+            "startColumn": 46,
+            "endLine": 462,
+            "endColumn": 50
+          }
+        },
+        "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/col": {
+          "key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/col",
+          "name": "col",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/col",
+            "name": "col",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 480,
+              "startColumn": 57,
+              "endLine": 480,
+              "endColumn": 60
+            }
+          },
+          "position": {
+            "startLine": 462,
+            "startColumn": 56,
+            "endLine": 462,
+            "endColumn": 59
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/LexParse.java-JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)-JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)-messagelinecol": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/LexParse.java-JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)-JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)-messagelinecol",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/LexParse.java",
+      "from_class_or_interface_name": "CUP$LexParse$actions",
+      "from_class_or_interface_key": "JFlex.CUP$LexParse$actions",
+      "from_method_name": "syntaxError",
+      "from_method_key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)",
+      "to_file_path": "jflex/src/JFlex/LexParse.java",
+      "to_class_or_interface_name": "CUP$LexParse$actions",
+      "to_class_or_interface_key": "JFlex.CUP$LexParse$actions",
+      "to_method_name": "fatalError",
+      "to_method_key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/message": {
+          "key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/message",
+          "name": "message",
+          "type": "JFlex.ErrorMessages",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/message",
+            "name": "message",
+            "type": "JFlex.ErrorMessages",
+            "modifiers": [],
+            "position": {
+              "startLine": 462,
+              "startColumn": 33,
+              "endLine": 462,
+              "endColumn": 40
+            }
+          },
+          "position": {
+            "startLine": 480,
+            "startColumn": 34,
+            "endLine": 480,
+            "endColumn": 41
+          }
+        },
+        "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/line": {
+          "key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 462,
+              "startColumn": 46,
+              "endLine": 462,
+              "endColumn": 50
+            }
+          },
+          "position": {
+            "startLine": 480,
+            "startColumn": 47,
+            "endLine": 480,
+            "endColumn": 51
+          }
+        },
+        "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/col": {
+          "key": "JFlex.CUP$LexParse$actions/method/syntaxError(JFlex.ErrorMessages message, int line, int col)/parameter/col",
+          "name": "col",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/method/fatalError(JFlex.ErrorMessages message, int line, int col)/parameter/col",
+            "name": "col",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 462,
+              "startColumn": 56,
+              "endLine": 462,
+              "endColumn": 59
+            }
+          },
+          "position": {
+            "startLine": 480,
+            "startColumn": 57,
+            "endLine": 480,
+            "endColumn": 60
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)-JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)-intervallsstartend": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)-JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)-intervallsstartend",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/NFA.java",
+      "from_class_or_interface_name": "NFA",
+      "from_class_or_interface_key": "JFlex.NFA",
+      "from_method_name": "insertNotClassNFA",
+      "from_method_key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)",
+      "to_file_path": "jflex/src/JFlex/NFA.java",
+      "to_class_or_interface_name": "NFA",
+      "to_class_or_interface_key": "JFlex.NFA",
+      "to_method_name": "insertClassNFA",
+      "to_method_key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/intervalls": {
+          "key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/intervalls",
+          "name": "intervalls",
+          "type": "java.util.Vector",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/intervalls",
+            "name": "intervalls",
+            "type": "java.util.Vector",
+            "modifiers": [],
+            "position": {
+              "startLine": 598,
+              "startColumn": 38,
+              "endLine": 598,
+              "endColumn": 48
+            }
+          },
+          "position": {
+            "startLine": 607,
+            "startColumn": 41,
+            "endLine": 607,
+            "endColumn": 51
+          }
+        },
+        "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/start": {
+          "key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/start",
+          "name": "start",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/start",
+            "name": "start",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 598,
+              "startColumn": 54,
+              "endLine": 598,
+              "endColumn": 59
+            }
+          },
+          "position": {
+            "startLine": 607,
+            "startColumn": 57,
+            "endLine": 607,
+            "endColumn": 62
+          }
+        },
+        "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/end": {
+          "key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/end",
+          "name": "end",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/end",
+            "name": "end",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 598,
+              "startColumn": 65,
+              "endLine": 598,
+              "endColumn": 68
+            }
+          },
+          "position": {
+            "startLine": 607,
+            "startColumn": 68,
+            "endLine": 607,
+            "endColumn": 71
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)-JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)-intervallsstartend": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)-JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)-intervallsstartend",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/NFA.java",
+      "from_class_or_interface_name": "NFA",
+      "from_class_or_interface_key": "JFlex.NFA",
+      "from_method_name": "insertClassNFA",
+      "from_method_key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)",
+      "to_file_path": "jflex/src/JFlex/NFA.java",
+      "to_class_or_interface_name": "NFA",
+      "to_class_or_interface_key": "JFlex.NFA",
+      "to_method_name": "insertNotClassNFA",
+      "to_method_key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/intervalls": {
+          "key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/intervalls",
+          "name": "intervalls",
+          "type": "java.util.Vector",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/intervalls",
+            "name": "intervalls",
+            "type": "java.util.Vector",
+            "modifiers": [],
+            "position": {
+              "startLine": 607,
+              "startColumn": 41,
+              "endLine": 607,
+              "endColumn": 51
+            }
+          },
+          "position": {
+            "startLine": 598,
+            "startColumn": 38,
+            "endLine": 598,
+            "endColumn": 48
+          }
+        },
+        "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/start": {
+          "key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/start",
+          "name": "start",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/start",
+            "name": "start",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 607,
+              "startColumn": 57,
+              "endLine": 607,
+              "endColumn": 62
+            }
+          },
+          "position": {
+            "startLine": 598,
+            "startColumn": 54,
+            "endLine": 598,
+            "endColumn": 59
+          }
+        },
+        "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/end": {
+          "key": "JFlex.NFA/method/insertClassNFA(java.util.Vector intervalls, int start, int end)/parameter/end",
+          "name": "end",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/method/insertNotClassNFA(java.util.Vector intervalls, int start, int end)/parameter/end",
+            "name": "end",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 607,
+              "startColumn": 68,
+              "endLine": 607,
+              "endColumn": 71
+            }
+          },
+          "position": {
+            "startLine": 598,
+            "startColumn": 65,
+            "endLine": 598,
+            "endColumn": 68
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-filelinecolumn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-filelinecolumn",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/Out.java",
+      "from_class_or_interface_name": "Out",
+      "from_class_or_interface_key": "JFlex.Out",
+      "from_method_name": "error",
+      "from_method_key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "to_file_path": "jflex/src/JFlex/Out.java",
+      "to_class_or_interface_name": "Out",
+      "to_class_or_interface_key": "JFlex.Out",
+      "to_method_name": "showPosition",
+      "to_method_key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file": {
+          "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+          "name": "file",
+          "type": "java.io.File",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/file",
+            "name": "file",
+            "type": "java.io.File",
+            "modifiers": [],
+            "position": {
+              "startLine": 365,
+              "startColumn": 40,
+              "endLine": 365,
+              "endColumn": 44
+            }
+          },
+          "position": {
+            "startLine": 334,
+            "startColumn": 33,
+            "endLine": 334,
+            "endColumn": 37
+          }
+        },
+        "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line": {
+          "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 365,
+              "startColumn": 50,
+              "endLine": 365,
+              "endColumn": 54
+            }
+          },
+          "position": {
+            "startLine": 334,
+            "startColumn": 66,
+            "endLine": 334,
+            "endColumn": 70
+          }
+        },
+        "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column": {
+          "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+          "name": "column",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/column",
+            "name": "column",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 365,
+              "startColumn": 60,
+              "endLine": 365,
+              "endColumn": 66
+            }
+          },
+          "position": {
+            "startLine": 334,
+            "startColumn": 76,
+            "endLine": 334,
+            "endColumn": 82
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filemessagelinecolumn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filemessagelinecolumn",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/Out.java",
+      "from_class_or_interface_name": "Out",
+      "from_class_or_interface_key": "JFlex.Out",
+      "from_method_name": "error",
+      "from_method_key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "to_file_path": "jflex/src/JFlex/Out.java",
+      "to_class_or_interface_name": "Out",
+      "to_class_or_interface_key": "JFlex.Out",
+      "to_method_name": "warning",
+      "to_method_key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file": {
+          "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+          "name": "file",
+          "type": "java.io.File",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+            "name": "file",
+            "type": "java.io.File",
+            "modifiers": [],
+            "position": {
+              "startLine": 251,
+              "startColumn": 35,
+              "endLine": 251,
+              "endColumn": 39
+            }
+          },
+          "position": {
+            "startLine": 334,
+            "startColumn": 33,
+            "endLine": 334,
+            "endColumn": 37
+          }
+        },
+        "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/message": {
+          "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/message",
+          "name": "message",
+          "type": "JFlex.ErrorMessages",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/message",
+            "name": "message",
+            "type": "JFlex.ErrorMessages",
+            "modifiers": [],
+            "position": {
+              "startLine": 251,
+              "startColumn": 55,
+              "endLine": 251,
+              "endColumn": 62
+            }
+          },
+          "position": {
+            "startLine": 334,
+            "startColumn": 53,
+            "endLine": 334,
+            "endColumn": 60
+          }
+        },
+        "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line": {
+          "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 251,
+              "startColumn": 68,
+              "endLine": 251,
+              "endColumn": 72
+            }
+          },
+          "position": {
+            "startLine": 334,
+            "startColumn": 66,
+            "endLine": 334,
+            "endColumn": 70
+          }
+        },
+        "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column": {
+          "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+          "name": "column",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+            "name": "column",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 251,
+              "startColumn": 78,
+              "endLine": 251,
+              "endColumn": 84
+            }
+          },
+          "position": {
+            "startLine": 334,
+            "startColumn": 76,
+            "endLine": 334,
+            "endColumn": 82
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filelinecolumn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filelinecolumn",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/Out.java",
+      "from_class_or_interface_name": "Out",
+      "from_class_or_interface_key": "JFlex.Out",
+      "from_method_name": "showPosition",
+      "from_method_key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)",
+      "to_file_path": "jflex/src/JFlex/Out.java",
+      "to_class_or_interface_name": "Out",
+      "to_class_or_interface_key": "JFlex.Out",
+      "to_method_name": "error",
+      "to_method_key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/file": {
+          "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/file",
+          "name": "file",
+          "type": "java.io.File",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+            "name": "file",
+            "type": "java.io.File",
+            "modifiers": [],
+            "position": {
+              "startLine": 334,
+              "startColumn": 33,
+              "endLine": 334,
+              "endColumn": 37
+            }
+          },
+          "position": {
+            "startLine": 365,
+            "startColumn": 40,
+            "endLine": 365,
+            "endColumn": 44
+          }
+        },
+        "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/line": {
+          "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 334,
+              "startColumn": 66,
+              "endLine": 334,
+              "endColumn": 70
+            }
+          },
+          "position": {
+            "startLine": 365,
+            "startColumn": 50,
+            "endLine": 365,
+            "endColumn": 54
+          }
+        },
+        "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/column": {
+          "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/column",
+          "name": "column",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+            "name": "column",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 334,
+              "startColumn": 76,
+              "endLine": 334,
+              "endColumn": 82
+            }
+          },
+          "position": {
+            "startLine": 365,
+            "startColumn": 60,
+            "endLine": 365,
+            "endColumn": 66
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filelinecolumn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filelinecolumn",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/Out.java",
+      "from_class_or_interface_name": "Out",
+      "from_class_or_interface_key": "JFlex.Out",
+      "from_method_name": "showPosition",
+      "from_method_key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)",
+      "to_file_path": "jflex/src/JFlex/Out.java",
+      "to_class_or_interface_name": "Out",
+      "to_class_or_interface_key": "JFlex.Out",
+      "to_method_name": "warning",
+      "to_method_key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/file": {
+          "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/file",
+          "name": "file",
+          "type": "java.io.File",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+            "name": "file",
+            "type": "java.io.File",
+            "modifiers": [],
+            "position": {
+              "startLine": 251,
+              "startColumn": 35,
+              "endLine": 251,
+              "endColumn": 39
+            }
+          },
+          "position": {
+            "startLine": 365,
+            "startColumn": 40,
+            "endLine": 365,
+            "endColumn": 44
+          }
+        },
+        "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/line": {
+          "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 251,
+              "startColumn": 68,
+              "endLine": 251,
+              "endColumn": 72
+            }
+          },
+          "position": {
+            "startLine": 365,
+            "startColumn": 50,
+            "endLine": 365,
+            "endColumn": 54
+          }
+        },
+        "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/column": {
+          "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/column",
+          "name": "column",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+            "name": "column",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 251,
+              "startColumn": 78,
+              "endLine": 251,
+              "endColumn": 84
+            }
+          },
+          "position": {
+            "startLine": 365,
+            "startColumn": 60,
+            "endLine": 365,
+            "endColumn": 66
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filemessagelinecolumn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)-filemessagelinecolumn",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/Out.java",
+      "from_class_or_interface_name": "Out",
+      "from_class_or_interface_key": "JFlex.Out",
+      "from_method_name": "warning",
+      "from_method_key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "to_file_path": "jflex/src/JFlex/Out.java",
+      "to_class_or_interface_name": "Out",
+      "to_class_or_interface_key": "JFlex.Out",
+      "to_method_name": "error",
+      "to_method_key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file": {
+          "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+          "name": "file",
+          "type": "java.io.File",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+            "name": "file",
+            "type": "java.io.File",
+            "modifiers": [],
+            "position": {
+              "startLine": 334,
+              "startColumn": 33,
+              "endLine": 334,
+              "endColumn": 37
+            }
+          },
+          "position": {
+            "startLine": 251,
+            "startColumn": 35,
+            "endLine": 251,
+            "endColumn": 39
+          }
+        },
+        "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/message": {
+          "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/message",
+          "name": "message",
+          "type": "JFlex.ErrorMessages",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/message",
+            "name": "message",
+            "type": "JFlex.ErrorMessages",
+            "modifiers": [],
+            "position": {
+              "startLine": 334,
+              "startColumn": 53,
+              "endLine": 334,
+              "endColumn": 60
+            }
+          },
+          "position": {
+            "startLine": 251,
+            "startColumn": 55,
+            "endLine": 251,
+            "endColumn": 62
+          }
+        },
+        "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line": {
+          "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 334,
+              "startColumn": 66,
+              "endLine": 334,
+              "endColumn": 70
+            }
+          },
+          "position": {
+            "startLine": 251,
+            "startColumn": 68,
+            "endLine": 251,
+            "endColumn": 72
+          }
+        },
+        "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column": {
+          "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+          "name": "column",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/error(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+            "name": "column",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 334,
+              "startColumn": 76,
+              "endLine": 334,
+              "endColumn": 82
+            }
+          },
+          "position": {
+            "startLine": 251,
+            "startColumn": 78,
+            "endLine": 251,
+            "endColumn": 84
+          }
+        }
+      }
+    },
+    "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-filelinecolumn": {
+      "type": "data_clump",
+      "key": "parameters_to_parameters_data_clump-jflex/src/JFlex/Out.java-JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)-JFlex.Out/method/showPosition(java.io.File file, int line, int column)-filelinecolumn",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/Out.java",
+      "from_class_or_interface_name": "Out",
+      "from_class_or_interface_key": "JFlex.Out",
+      "from_method_name": "warning",
+      "from_method_key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)",
+      "to_file_path": "jflex/src/JFlex/Out.java",
+      "to_class_or_interface_name": "Out",
+      "to_class_or_interface_key": "JFlex.Out",
+      "to_method_name": "showPosition",
+      "to_method_key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)",
+      "data_clump_type": "parameters_to_parameters_data_clump",
+      "data_clump_data": {
+        "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file": {
+          "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/file",
+          "name": "file",
+          "type": "java.io.File",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/file",
+            "name": "file",
+            "type": "java.io.File",
+            "modifiers": [],
+            "position": {
+              "startLine": 365,
+              "startColumn": 40,
+              "endLine": 365,
+              "endColumn": 44
+            }
+          },
+          "position": {
+            "startLine": 251,
+            "startColumn": 35,
+            "endLine": 251,
+            "endColumn": 39
+          }
+        },
+        "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line": {
+          "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/line",
+          "name": "line",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/line",
+            "name": "line",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 365,
+              "startColumn": 50,
+              "endLine": 365,
+              "endColumn": 54
+            }
+          },
+          "position": {
+            "startLine": 251,
+            "startColumn": 68,
+            "endLine": 251,
+            "endColumn": 72
+          }
+        },
+        "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column": {
+          "key": "JFlex.Out/method/warning(java.io.File file, JFlex.ErrorMessages message, int line, int column)/parameter/column",
+          "name": "column",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.Out/method/showPosition(java.io.File file, int line, int column)/parameter/column",
+            "name": "column",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 365,
+              "startColumn": 60,
+              "endLine": 365,
+              "endColumn": 66
+            }
+          },
+          "position": {
+            "startLine": 251,
+            "startColumn": 78,
+            "endLine": 251,
+            "endColumn": 84
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/src/JFlex/LexParse.java-JFlex.CUP$LexParse$actions-JFlex.NFA-regExpsmacrosscanner": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/src/JFlex/LexParse.java-JFlex.CUP$LexParse$actions-JFlex.NFA-regExpsmacrosscanner",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/LexParse.java",
+      "from_class_or_interface_name": "CUP$LexParse$actions",
+      "from_class_or_interface_key": "JFlex.CUP$LexParse$actions",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/src/JFlex/NFA.java",
+      "to_class_or_interface_key": "JFlex.NFA",
+      "to_class_or_interface_name": "CUP$LexParse$actions",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "JFlex.CUP$LexParse$actions/memberField/regExps": {
+          "key": "JFlex.CUP$LexParse$actions/memberField/regExps",
+          "name": "regExps",
+          "type": "JFlex.RegExps",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/regExps",
+            "name": "regExps",
+            "type": "JFlex.RegExps",
+            "modifiers": [],
+            "position": {
+              "startLine": 72,
+              "startColumn": 11,
+              "endLine": 72,
+              "endColumn": 18
+            }
+          },
+          "position": {
+            "startLine": 456,
+            "startColumn": 15,
+            "endLine": 456,
+            "endColumn": 22
+          }
+        },
+        "JFlex.CUP$LexParse$actions/memberField/macros": {
+          "key": "JFlex.CUP$LexParse$actions/memberField/macros",
+          "name": "macros",
+          "type": "JFlex.Macros",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/macros",
+            "name": "macros",
+            "type": "JFlex.Macros",
+            "modifiers": [],
+            "position": {
+              "startLine": 68,
+              "startColumn": 10,
+              "endLine": 68,
+              "endColumn": 16
+            }
+          },
+          "position": {
+            "startLine": 457,
+            "startColumn": 15,
+            "endLine": 457,
+            "endColumn": 21
+          }
+        },
+        "JFlex.CUP$LexParse$actions/memberField/scanner": {
+          "key": "JFlex.CUP$LexParse$actions/memberField/scanner",
+          "name": "scanner",
+          "type": "JFlex.LexScan",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/scanner",
+            "name": "scanner",
+            "type": "JFlex.LexScan",
+            "modifiers": [],
+            "position": {
+              "startLine": 71,
+              "startColumn": 11,
+              "endLine": 71,
+              "endColumn": 18
+            }
+          },
+          "position": {
+            "startLine": 454,
+            "startColumn": 15,
+            "endLine": 454,
+            "endColumn": 22
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/src/JFlex/CharSetEnumerator.java-JFlex.CharSetEnumerator-JFlex.StateSetEnumerator-maskoffsetindex": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/src/JFlex/CharSetEnumerator.java-JFlex.CharSetEnumerator-JFlex.StateSetEnumerator-maskoffsetindex",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/CharSetEnumerator.java",
+      "from_class_or_interface_name": "CharSetEnumerator",
+      "from_class_or_interface_key": "JFlex.CharSetEnumerator",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/src/JFlex/StateSetEnumerator.java",
+      "to_class_or_interface_key": "JFlex.StateSetEnumerator",
+      "to_class_or_interface_name": "CharSetEnumerator",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "JFlex.CharSetEnumerator/memberField/mask": {
+          "key": "JFlex.CharSetEnumerator/memberField/mask",
+          "name": "mask",
+          "type": "long",
+          "probability": 1,
+          "modifiers": [
+            "PRIVATE"
+          ],
+          "to_variable": {
+            "key": "JFlex.StateSetEnumerator/memberField/mask",
+            "name": "mask",
+            "type": "long",
+            "modifiers": [
+              "PRIVATE"
+            ],
+            "position": {
+              "startLine": 34,
+              "startColumn": 16,
+              "endLine": 34,
+              "endColumn": 20
+            }
+          },
+          "position": {
+            "startLine": 36,
+            "startColumn": 16,
+            "endLine": 36,
+            "endColumn": 20
+          }
+        },
+        "JFlex.CharSetEnumerator/memberField/offset": {
+          "key": "JFlex.CharSetEnumerator/memberField/offset",
+          "name": "offset",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [
+            "PRIVATE"
+          ],
+          "to_variable": {
+            "key": "JFlex.StateSetEnumerator/memberField/offset",
+            "name": "offset",
+            "type": "int",
+            "modifiers": [
+              "PRIVATE"
+            ],
+            "position": {
+              "startLine": 33,
+              "startColumn": 15,
+              "endLine": 33,
+              "endColumn": 21
+            }
+          },
+          "position": {
+            "startLine": 35,
+            "startColumn": 15,
+            "endLine": 35,
+            "endColumn": 21
+          }
+        },
+        "JFlex.CharSetEnumerator/memberField/index": {
+          "key": "JFlex.CharSetEnumerator/memberField/index",
+          "name": "index",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [
+            "PRIVATE"
+          ],
+          "to_variable": {
+            "key": "JFlex.StateSetEnumerator/memberField/index",
+            "name": "index",
+            "type": "int",
+            "modifiers": [
+              "PRIVATE"
+            ],
+            "position": {
+              "startLine": 32,
+              "startColumn": 15,
+              "endLine": 32,
+              "endColumn": 20
+            }
+          },
+          "position": {
+            "startLine": 34,
+            "startColumn": 15,
+            "endLine": 34,
+            "endColumn": 20
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/src/JFlex/DFA.java-JFlex.DFA-JFlex.NFA-isPushbacknumStatesisFinalnumInputaction": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/src/JFlex/DFA.java-JFlex.DFA-JFlex.NFA-isPushbacknumStatesisFinalnumInputaction",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/DFA.java",
+      "from_class_or_interface_name": "DFA",
+      "from_class_or_interface_key": "JFlex.DFA",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/src/JFlex/NFA.java",
+      "to_class_or_interface_key": "JFlex.NFA",
+      "to_class_or_interface_name": "DFA",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "JFlex.DFA/memberField/isPushback": {
+          "key": "JFlex.DFA/memberField/isPushback",
+          "name": "isPushback",
+          "type": "boolean[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/isPushback",
+            "name": "isPushback",
+            "type": "boolean[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 49,
+              "startColumn": 14,
+              "endLine": 49,
+              "endColumn": 24
+            }
+          },
+          "position": {
+            "startLine": 66,
+            "startColumn": 14,
+            "endLine": 66,
+            "endColumn": 24
+          }
+        },
+        "JFlex.DFA/memberField/numStates": {
+          "key": "JFlex.DFA/memberField/numStates",
+          "name": "numStates",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/numStates",
+            "name": "numStates",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 56,
+              "startColumn": 7,
+              "endLine": 56,
+              "endColumn": 16
+            }
+          },
+          "position": {
+            "startLine": 90,
+            "startColumn": 7,
+            "endLine": 90,
+            "endColumn": 16
+          }
+        },
+        "JFlex.DFA/memberField/isFinal": {
+          "key": "JFlex.DFA/memberField/isFinal",
+          "name": "isFinal",
+          "type": "boolean[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/isFinal",
+            "name": "isFinal",
+            "type": "boolean[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 45,
+              "startColumn": 14,
+              "endLine": 45,
+              "endColumn": 21
+            }
+          },
+          "position": {
+            "startLine": 59,
+            "startColumn": 14,
+            "endLine": 59,
+            "endColumn": 21
+          }
+        },
+        "JFlex.DFA/memberField/numInput": {
+          "key": "JFlex.DFA/memberField/numInput",
+          "name": "numInput",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/numInput",
+            "name": "numInput",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 59,
+              "startColumn": 7,
+              "endLine": 59,
+              "endColumn": 15
+            }
+          },
+          "position": {
+            "startLine": 96,
+            "startColumn": 7,
+            "endLine": 96,
+            "endColumn": 15
+          }
+        },
+        "JFlex.DFA/memberField/action": {
+          "key": "JFlex.DFA/memberField/action",
+          "name": "action",
+          "type": "JFlex.Action[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.NFA/memberField/action",
+            "name": "action",
+            "type": "JFlex.Action[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 53,
+              "startColumn": 13,
+              "endLine": 53,
+              "endColumn": 19
+            }
+          },
+          "position": {
+            "startLine": 80,
+            "startColumn": 13,
+            "endLine": 80,
+            "endColumn": 19
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA-JFlex.CUP$LexParse$actions-scannerregExpsmacros": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA-JFlex.CUP$LexParse$actions-scannerregExpsmacros",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/NFA.java",
+      "from_class_or_interface_name": "NFA",
+      "from_class_or_interface_key": "JFlex.NFA",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/src/JFlex/LexParse.java",
+      "to_class_or_interface_key": "JFlex.CUP$LexParse$actions",
+      "to_class_or_interface_name": "NFA",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "JFlex.NFA/memberField/scanner": {
+          "key": "JFlex.NFA/memberField/scanner",
+          "name": "scanner",
+          "type": "JFlex.LexScan",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/memberField/scanner",
+            "name": "scanner",
+            "type": "JFlex.LexScan",
+            "modifiers": [],
+            "position": {
+              "startLine": 454,
+              "startColumn": 15,
+              "endLine": 454,
+              "endColumn": 22
+            }
+          },
+          "position": {
+            "startLine": 71,
+            "startColumn": 11,
+            "endLine": 71,
+            "endColumn": 18
+          }
+        },
+        "JFlex.NFA/memberField/regExps": {
+          "key": "JFlex.NFA/memberField/regExps",
+          "name": "regExps",
+          "type": "JFlex.RegExps",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/memberField/regExps",
+            "name": "regExps",
+            "type": "JFlex.RegExps",
+            "modifiers": [],
+            "position": {
+              "startLine": 456,
+              "startColumn": 15,
+              "endLine": 456,
+              "endColumn": 22
+            }
+          },
+          "position": {
+            "startLine": 72,
+            "startColumn": 11,
+            "endLine": 72,
+            "endColumn": 18
+          }
+        },
+        "JFlex.NFA/memberField/macros": {
+          "key": "JFlex.NFA/memberField/macros",
+          "name": "macros",
+          "type": "JFlex.Macros",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.CUP$LexParse$actions/memberField/macros",
+            "name": "macros",
+            "type": "JFlex.Macros",
+            "modifiers": [],
+            "position": {
+              "startLine": 457,
+              "startColumn": 15,
+              "endLine": 457,
+              "endColumn": 21
+            }
+          },
+          "position": {
+            "startLine": 68,
+            "startColumn": 10,
+            "endLine": 68,
+            "endColumn": 16
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA-JFlex.DFA-isFinalactionisPushbacknumStatesnumInput": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/src/JFlex/NFA.java-JFlex.NFA-JFlex.DFA-isFinalactionisPushbacknumStatesnumInput",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/NFA.java",
+      "from_class_or_interface_name": "NFA",
+      "from_class_or_interface_key": "JFlex.NFA",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/src/JFlex/DFA.java",
+      "to_class_or_interface_key": "JFlex.DFA",
+      "to_class_or_interface_name": "NFA",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "JFlex.NFA/memberField/isFinal": {
+          "key": "JFlex.NFA/memberField/isFinal",
+          "name": "isFinal",
+          "type": "boolean[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.DFA/memberField/isFinal",
+            "name": "isFinal",
+            "type": "boolean[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 59,
+              "startColumn": 14,
+              "endLine": 59,
+              "endColumn": 21
+            }
+          },
+          "position": {
+            "startLine": 45,
+            "startColumn": 14,
+            "endLine": 45,
+            "endColumn": 21
+          }
+        },
+        "JFlex.NFA/memberField/action": {
+          "key": "JFlex.NFA/memberField/action",
+          "name": "action",
+          "type": "JFlex.Action[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.DFA/memberField/action",
+            "name": "action",
+            "type": "JFlex.Action[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 80,
+              "startColumn": 13,
+              "endLine": 80,
+              "endColumn": 19
+            }
+          },
+          "position": {
+            "startLine": 53,
+            "startColumn": 13,
+            "endLine": 53,
+            "endColumn": 19
+          }
+        },
+        "JFlex.NFA/memberField/isPushback": {
+          "key": "JFlex.NFA/memberField/isPushback",
+          "name": "isPushback",
+          "type": "boolean[]",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.DFA/memberField/isPushback",
+            "name": "isPushback",
+            "type": "boolean[]",
+            "modifiers": [],
+            "position": {
+              "startLine": 66,
+              "startColumn": 14,
+              "endLine": 66,
+              "endColumn": 24
+            }
+          },
+          "position": {
+            "startLine": 49,
+            "startColumn": 14,
+            "endLine": 49,
+            "endColumn": 24
+          }
+        },
+        "JFlex.NFA/memberField/numStates": {
+          "key": "JFlex.NFA/memberField/numStates",
+          "name": "numStates",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.DFA/memberField/numStates",
+            "name": "numStates",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 90,
+              "startColumn": 7,
+              "endLine": 90,
+              "endColumn": 16
+            }
+          },
+          "position": {
+            "startLine": 56,
+            "startColumn": 7,
+            "endLine": 56,
+            "endColumn": 16
+          }
+        },
+        "JFlex.NFA/memberField/numInput": {
+          "key": "JFlex.NFA/memberField/numInput",
+          "name": "numInput",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "JFlex.DFA/memberField/numInput",
+            "name": "numInput",
+            "type": "int",
+            "modifiers": [],
+            "position": {
+              "startLine": 96,
+              "startColumn": 7,
+              "endLine": 96,
+              "endColumn": 15
+            }
+          },
+          "position": {
+            "startLine": 59,
+            "startColumn": 7,
+            "endLine": 59,
+            "endColumn": 15
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/src/JFlex/StateSetEnumerator.java-JFlex.StateSetEnumerator-JFlex.CharSetEnumerator-indexmaskoffset": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/src/JFlex/StateSetEnumerator.java-JFlex.StateSetEnumerator-JFlex.CharSetEnumerator-indexmaskoffset",
+      "probability": 1,
+      "from_file_path": "jflex/src/JFlex/StateSetEnumerator.java",
+      "from_class_or_interface_name": "StateSetEnumerator",
+      "from_class_or_interface_key": "JFlex.StateSetEnumerator",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/src/JFlex/CharSetEnumerator.java",
+      "to_class_or_interface_key": "JFlex.CharSetEnumerator",
+      "to_class_or_interface_name": "StateSetEnumerator",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "JFlex.StateSetEnumerator/memberField/index": {
+          "key": "JFlex.StateSetEnumerator/memberField/index",
+          "name": "index",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [
+            "PRIVATE"
+          ],
+          "to_variable": {
+            "key": "JFlex.CharSetEnumerator/memberField/index",
+            "name": "index",
+            "type": "int",
+            "modifiers": [
+              "PRIVATE"
+            ],
+            "position": {
+              "startLine": 34,
+              "startColumn": 15,
+              "endLine": 34,
+              "endColumn": 20
+            }
+          },
+          "position": {
+            "startLine": 32,
+            "startColumn": 15,
+            "endLine": 32,
+            "endColumn": 20
+          }
+        },
+        "JFlex.StateSetEnumerator/memberField/mask": {
+          "key": "JFlex.StateSetEnumerator/memberField/mask",
+          "name": "mask",
+          "type": "long",
+          "probability": 1,
+          "modifiers": [
+            "PRIVATE"
+          ],
+          "to_variable": {
+            "key": "JFlex.CharSetEnumerator/memberField/mask",
+            "name": "mask",
+            "type": "long",
+            "modifiers": [
+              "PRIVATE"
+            ],
+            "position": {
+              "startLine": 36,
+              "startColumn": 16,
+              "endLine": 36,
+              "endColumn": 20
+            }
+          },
+          "position": {
+            "startLine": 34,
+            "startColumn": 16,
+            "endLine": 34,
+            "endColumn": 20
+          }
+        },
+        "JFlex.StateSetEnumerator/memberField/offset": {
+          "key": "JFlex.StateSetEnumerator/memberField/offset",
+          "name": "offset",
+          "type": "int",
+          "probability": 1,
+          "modifiers": [
+            "PRIVATE"
+          ],
+          "to_variable": {
+            "key": "JFlex.CharSetEnumerator/memberField/offset",
+            "name": "offset",
+            "type": "int",
+            "modifiers": [
+              "PRIVATE"
+            ],
+            "position": {
+              "startLine": 35,
+              "startColumn": 15,
+              "endLine": 35,
+              "endColumn": 21
+            }
+          },
+          "position": {
+            "startLine": 33,
+            "startColumn": 15,
+            "endLine": 33,
+            "endColumn": 21
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/examples/interpreter/Tboolexp.java-Tboolexp-Texpinfix-exp1kindexp2": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/examples/interpreter/Tboolexp.java-Tboolexp-Texpinfix-exp1kindexp2",
+      "probability": 1,
+      "from_file_path": "jflex/examples/interpreter/Tboolexp.java",
+      "from_class_or_interface_name": "Tboolexp",
+      "from_class_or_interface_key": "Tboolexp",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/examples/interpreter/Texpinfix.java",
+      "to_class_or_interface_key": "Texpinfix",
+      "to_class_or_interface_name": "Tboolexp",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "Tboolexp/memberField/exp1": {
+          "key": "Tboolexp/memberField/exp1",
+          "name": "exp1",
+          "type": "Texp",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "Texpinfix/memberField/exp1",
+            "name": "exp1",
+            "type": "Texp",
+            "modifiers": [],
+            "position": {
+              "startLine": 26,
+              "startColumn": 8,
+              "endLine": 26,
+              "endColumn": 12
+            }
+          },
+          "position": {
+            "startLine": 26,
+            "startColumn": 8,
+            "endLine": 26,
+            "endColumn": 12
+          }
+        },
+        "Tboolexp/memberField/kind": {
+          "key": "Tboolexp/memberField/kind",
+          "name": "kind",
+          "type": "char",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "Texpinfix/memberField/kind",
+            "name": "kind",
+            "type": "char",
+            "modifiers": [],
+            "position": {
+              "startLine": 27,
+              "startColumn": 8,
+              "endLine": 27,
+              "endColumn": 12
+            }
+          },
+          "position": {
+            "startLine": 27,
+            "startColumn": 8,
+            "endLine": 27,
+            "endColumn": 12
+          }
+        },
+        "Tboolexp/memberField/exp2": {
+          "key": "Tboolexp/memberField/exp2",
+          "name": "exp2",
+          "type": "Texp",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "Texpinfix/memberField/exp2",
+            "name": "exp2",
+            "type": "Texp",
+            "modifiers": [],
+            "position": {
+              "startLine": 26,
+              "startColumn": 14,
+              "endLine": 26,
+              "endColumn": 18
+            }
+          },
+          "position": {
+            "startLine": 26,
+            "startColumn": 14,
+            "endLine": 26,
+            "endColumn": 18
+          }
+        }
+      }
+    },
+    "fields_to_fields_data_clump-jflex/examples/interpreter/Texpinfix.java-Texpinfix-Tboolexp-kindexp1exp2": {
+      "type": "data_clump",
+      "key": "fields_to_fields_data_clump-jflex/examples/interpreter/Texpinfix.java-Texpinfix-Tboolexp-kindexp1exp2",
+      "probability": 1,
+      "from_file_path": "jflex/examples/interpreter/Texpinfix.java",
+      "from_class_or_interface_name": "Texpinfix",
+      "from_class_or_interface_key": "Texpinfix",
+      "from_method_name": null,
+      "from_method_key": null,
+      "to_file_path": "jflex/examples/interpreter/Tboolexp.java",
+      "to_class_or_interface_key": "Tboolexp",
+      "to_class_or_interface_name": "Texpinfix",
+      "to_method_key": null,
+      "to_method_name": null,
+      "data_clump_type": "fields_to_fields_data_clump",
+      "data_clump_data": {
+        "Texpinfix/memberField/kind": {
+          "key": "Texpinfix/memberField/kind",
+          "name": "kind",
+          "type": "char",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "Tboolexp/memberField/kind",
+            "name": "kind",
+            "type": "char",
+            "modifiers": [],
+            "position": {
+              "startLine": 27,
+              "startColumn": 8,
+              "endLine": 27,
+              "endColumn": 12
+            }
+          },
+          "position": {
+            "startLine": 27,
+            "startColumn": 8,
+            "endLine": 27,
+            "endColumn": 12
+          }
+        },
+        "Texpinfix/memberField/exp1": {
+          "key": "Texpinfix/memberField/exp1",
+          "name": "exp1",
+          "type": "Texp",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "Tboolexp/memberField/exp1",
+            "name": "exp1",
+            "type": "Texp",
+            "modifiers": [],
+            "position": {
+              "startLine": 26,
+              "startColumn": 8,
+              "endLine": 26,
+              "endColumn": 12
+            }
+          },
+          "position": {
+            "startLine": 26,
+            "startColumn": 8,
+            "endLine": 26,
+            "endColumn": 12
+          }
+        },
+        "Texpinfix/memberField/exp2": {
+          "key": "Texpinfix/memberField/exp2",
+          "name": "exp2",
+          "type": "Texp",
+          "probability": 1,
+          "modifiers": [],
+          "to_variable": {
+            "key": "Tboolexp/memberField/exp2",
+            "name": "exp2",
+            "type": "Texp",
+            "modifiers": [],
+            "position": {
+              "startLine": 26,
+              "startColumn": 14,
+              "endLine": 26,
+              "endColumn": 18
+            }
+          },
+          "position": {
+            "startLine": 26,
+            "startColumn": 14,
+            "endLine": 26,
+            "endColumn": 18
+          }
+        }
+      }
+    }
+  }
+}
