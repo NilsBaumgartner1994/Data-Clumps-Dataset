@@ -46,11 +46,30 @@ compress_files() {
             echo "Failed to compress: $file"
         fi
 
+        
+        # Update progress counter
         progress=$((progress + 1))
-        elapsed_time=$(( $(date +%s) - $start_time ))
-        est_time=$(($elapsed_time * $total_files / $progress))
 
-        echo "Elapsed time $(format_time $elapsed_time) | ($progress/$total_files) | Est. Time $(format_time $est_time)"
+
+        # Calculate elapsed time
+        elapsed_time=$(( $(date +%s) - $start_time ))
+
+        # Calculate estimated time to complete
+        if [ $progress -gt 0 ]; then
+            est_time=$(( (elapsed_time * total_files) / progress ))
+        else
+            est_time=0
+        fi
+
+        # Calculate remaining time
+        remaining_time=$((est_time - elapsed_time))
+
+        # Calculate estimated completion time
+        estimated_finished_at=$((start_time + est_time))
+        estimated_finished_time=$(date -d "@$estimated_finished_at" +"%d days %H:%M")
+
+        # Display progress
+        echo "Elapsed time: $(format_time $elapsed_time) | ($progress/$total_files) | Estimated finished at: $estimated_finished_time | Remaining time: $(format_time $remaining_time)"
     done
 
     echo "All .json files were successfully compressed and original files deleted."
@@ -80,11 +99,29 @@ decompress_files() {
             echo "Failed to decompress: $zipfile"
         fi
 
+        # Update progress counter
         progress=$((progress + 1))
-        elapsed_time=$(( $(date +%s) - $start_time ))
-        est_time=$(($elapsed_time * $total_files / $progress))
 
-        echo "Elapsed time $(format_time $elapsed_time) | ($progress/$total_files) | Est. Time $(format_time $est_time)"
+
+        # Calculate elapsed time
+        elapsed_time=$(( $(date +%s) - $start_time ))
+
+        # Calculate estimated time to complete
+        if [ $progress -gt 0 ]; then
+            est_time=$(( (elapsed_time * total_files) / progress ))
+        else
+            est_time=0
+        fi
+
+        # Calculate remaining time
+        remaining_time=$((est_time - elapsed_time))
+
+        # Calculate estimated completion time
+        estimated_finished_at=$((start_time + est_time))
+        estimated_finished_time=$(date -d "@$estimated_finished_at" +"%d days %H:%M")
+
+        # Display progress
+        echo "Elapsed time: $(format_time $elapsed_time) | ($progress/$total_files) | Estimated finished at: $estimated_finished_time | Remaining time: $(format_time $remaining_time)"
     done
 
     echo "All .zip files were successfully decompressed and original zip files deleted."
