@@ -18,12 +18,28 @@ To understand the format of the data clumps report, please refer to our detailed
 
 ## Collected Projects
 We have collected and analyzed the following projects for data clumps:
+- Android-Universal-Image-Loader
+- BroadleafCommerce
+- antlr4
 - argouml
 - caffeine
-- dolphinescheduler
+- ceylon-ide-eclipse
+- dolphinscheduler
+- elasticsearch
+- hazelcast
 - jflex
 - jfreechart
+- junit4
+- junit5
+- mapdb
+- mcMMO
+- neo4j
+- netty
+- orientdb
+- oryx
 - rocketmq
+- spring-boot
+- titan
 - xerces2-j
 
 Each project offers a unique perspective and contributes significantly to our understanding of data clumps in software development.
