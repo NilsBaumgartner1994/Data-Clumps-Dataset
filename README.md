@@ -61,6 +61,27 @@ This repository is an essential resource for research on data clumps. It can be 
 - Developing new methodologies for detecting and resolving data clumps
 - Understanding the impact of data clumps on software maintainability and performance
 
+## Cite
+
+Please cite this dataset as follows:
+
+- [The Lifecycle of Data Clumps: A Longitudinal Case Study in Open-Source Projects](https://www.scitepress.org/Papers/2024/123139/123139.pdf) - Baumgartner, N., & Pulvermüller, E. (2024). The Lifecycle of Data Clumps: A Longitudinal Case Study in Open-Source Projects. In Proceedings of the 12th International Conference on Model-Based Software and Systems Engineering. 12th International Conference on Model-Based Software and Systems Engineering. SCITEPRESS - Science and Technology Publications. https://doi.org/10.5220/0012313900003645
+
+```
+@conference{lifecycleDataClumps2024aBaumgartner,
+  author    = {Nils Baumgartner and Elke Pulvermüller},
+  title     = {The Lifecycle of Data Clumps: A Longitudinal Case Study in Open-Source Projects},
+  booktitle = {Proceedings of the 12th International Conference on Model-Based Software and Systems Engineering (MODELSWARD 2024)},
+  year      = {2024},
+  month     = {February 21-23},
+  address   = {Rome, Italy},
+  publisher = {SciTePress},
+  doi       = {10.5220/0012313900003645},
+  note      = {{Nominated for Best Paper Award}}
+  
+}
+```
+
 ## Contributing
 We welcome contributions from the research community. If you have suggestions, data, or analyses that could enrich this repository, please feel free to contribute.
 
