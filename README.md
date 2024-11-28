@@ -16,7 +16,7 @@ Each project within the `Projects` directory contains its own set of tags, encap
 ## Data Clumps Report Format
 To understand the format of the data clumps report, please refer to our detailed definition [data-clumps-type-context](https://github.com/FireboltCasters/data-clumps-type-context). This guide provides the necessary context and types of data clumps that we have identified in our research.
 
-## Collected Projects
+## Collected Source Code Projects
 We have collected and analyzed the following projects for data clumps:
 - Android-Universal-Image-Loader
 - BroadleafCommerce
@@ -43,6 +43,13 @@ We have collected and analyzed the following projects for data clumps:
 - xerces2-j
 
 Each project offers a unique perspective and contributes significantly to our understanding of data clumps in software development.
+
+## Collected Model Projects
+
+We analysed the following UML model datasets from https://github.com/NilsBaumgartner1994/UML-Class-Diagram-Dataset
+
+- LindholmenDb & Public Repos.
+- ModelsDb
 
 ## Research:
 - [Live Code Smell Detection of Data Clumps in an Integrated Development Environment](https://www.researchgate.net/publication/370281298_Live_Code_Smell_Detection_of_Data_Clumps_in_an_Integrated_Development_Environment) - Baumgartner, N., Adleh, F., & Pulvermüller, E. (2023). Live Code Smell Detection of Data Clumps in an Integrated Development Environment. In Proceedings of the 18th International Conference on Evaluation of Novel Approaches to Software Engineering. 18th International Conference on Evaluation of Novel Approaches to Software Engineering. SCITEPRESS - Science and Technology Publications. https://doi.org/10.5220/0011727500003464
