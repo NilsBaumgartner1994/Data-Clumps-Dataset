@@ -66,7 +66,12 @@ compress_files() {
 
         # Calculate estimated completion time
         estimated_finished_at=$((start_time + est_time))
-        estimated_finished_time=$(date -d "@$estimated_finished_at" +"%d days %H:%M")
+         # Cross-platform date handling
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+            estimated_finished_time=$(date -r "$estimated_finished_at" "+%Y-%m-%d %H:%M")
+        else
+            estimated_finished_time=$(date -d "@$estimated_finished_at" "+%Y-%m-%d %H:%M")
+        fi
 
         # Display progress
         echo "Elapsed time: $(format_time $elapsed_time) | ($progress/$total_files) | Estimated finished at: $estimated_finished_time | Remaining time: $(format_time $remaining_time)"
@@ -118,7 +123,12 @@ decompress_files() {
 
         # Calculate estimated completion time
         estimated_finished_at=$((start_time + est_time))
-        estimated_finished_time=$(date -d "@$estimated_finished_at" +"%d days %H:%M")
+         # Cross-platform date handling
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+            estimated_finished_time=$(date -r "$estimated_finished_at" "+%Y-%m-%d %H:%M")
+        else
+            estimated_finished_time=$(date -d "@$estimated_finished_at" "+%Y-%m-%d %H:%M")
+        fi
 
         # Display progress
         echo "Elapsed time: $(format_time $elapsed_time) | ($progress/$total_files) | Estimated finished at: $estimated_finished_time | Remaining time: $(format_time $remaining_time)"
